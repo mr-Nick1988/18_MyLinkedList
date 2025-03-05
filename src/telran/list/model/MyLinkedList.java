@@ -122,7 +122,7 @@ public class MyLinkedList<E> implements IList<E> {
         return -1;
     }
 
-    //O(1) checkIndex //getNodeByIndex O(n)// prev.next next.prev first last O(1);
+    //O(1) checkIndex //getNodeByIndex O(n)// prev.next next.prev first last O(1)
     @Override
     public E remove(int index) {
         checkIndex(index);
